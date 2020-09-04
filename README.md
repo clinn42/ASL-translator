@@ -1,7 +1,5 @@
 ## ASL Alphabet translator
 
----
-
 A Python application that is can detect the hand sign for American Sign Language alphabets and can be used to string together sentences.
 
 

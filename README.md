@@ -2,8 +2,9 @@
 
 A Python application that is can detect the hand sign for American Sign Language alphabets and can be used to string together sentences.
 
-
 [ASL Alphabet Dataset](https://www.kaggle.com/grassknoted/asl-alphabet)
+
+<br>
 
 #### Dataset Details:
 
@@ -13,6 +14,7 @@ A Python application that is can detect the hand sign for American Sign Language
 - There are 3000 images for each symbol in different orientations and lighting.
 - Total dataset size = 3000 images x 29 catergories x 12kb per image = 1GB
 
+<br>
 
 #### Self Generated Dataset
 
@@ -22,6 +24,7 @@ A Python application that is can detect the hand sign for American Sign Language
 - It is better to make a diverse dataset varying in hand position, background and lighting
 - Camera application for adding extra images [hand sign camera.py](generate%20self%20dataset)
 
+<br>
 
 ### Required python packages:
 
@@ -31,6 +34,8 @@ A Python application that is can detect the hand sign for American Sign Language
 - OpenCV
 - Pillow
 
+<br>
+
 It makes use of the Convolutinal Neural Networks to train a model to identify the image/hand signature made in the detection area.
 
 - Model classifies the image into one of 29 classes, alphabets A - Z, space, delete and blank.
@@ -38,4 +43,72 @@ It makes use of the Convolutinal Neural Networks to train a model to identify th
 - **Model**: kagg_aslmod2_gray.h5
 - Model trained on Grayscale images
 
-### Main program: main.py
+<br>
+
+### Main program: proto.py
+
+<br>
+
+### Hand signs
+
+<br>
+
+<table style="text-align: center;">
+<tr>
+<th>Alphabet</th>
+<th>Sign</th>
+<th>Alphabet</th>
+<th>Sign</th>
+<th>Alphabet</th>
+<th>Sign</th>
+</tr>
+<tr>
+<td>A</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/A_test.jpg" width=50%></td>
+<td>B</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/B_test.jpg" width=50%></td>
+<td>C</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/C_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>D</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/D_test.jpg" width=50%></td>
+<td>E</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/E_test.jpg" width=50%></td>
+<td>F</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/F_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>G</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/G_test.jpg" width=50%></td>
+<td>H</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/H_test.jpg" width=50%></td>
+<td>I</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/I_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>J</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/J_test.jpg" width=50%></td>
+<td>K</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/K_test.jpg" width=50%></td>
+<td>L</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/L_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>M</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/M_test.jpg" width=50%></td>
+<td>N</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/N_test.jpg" width=50%></td>
+<td>O</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/O_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>P</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/P_test.jpg" width=50%></td>
+<td>Q</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/Q_test.jpg" width=50%></td>
+<td>R</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/R_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>S</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/S_test.jpg" width=50%></td>
+<td>T</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/T_test.jpg" width=50%></td>
+<td>U</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/U_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>V</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/V_test.jpg" width=50%></td>
+<td>W</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/W_test.jpg" width=50%></td>
+<td>X</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/X_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>Y</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/Y_test.jpg" width=50%></td>
+<td>Z</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/Z_test.jpg" width=50%></td>
+<td>space</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/space_test.jpg" width=50%></td>
+</tr>
+<tr>
+<td>del</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/del_test.jpg" width=50%></td>
+<td>nothing</td><td><img src="dataset/asl_alphabet_test/asl_alphabet_test/nothing_test.jpg" width=50%></td>
+</tr>
+</table>
